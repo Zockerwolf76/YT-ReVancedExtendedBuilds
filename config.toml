@@ -2,6 +2,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 
 [YouTube]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
