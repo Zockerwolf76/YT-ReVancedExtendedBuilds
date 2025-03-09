@@ -1,13 +1,15 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
+
 [YouTube]
-enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
 arch = "arm64-v8a"
 build-mode = "module"
+version = "19.44.39"
 included-patches = "'Custom header for YouTube'"
-patcher-args = "-OcustomHeader=Aurora -OappName=YouTube Extended "
+patcher-args = "-OcustomHeader=Aurora "
