@@ -15,7 +15,7 @@ included-patches = "'Custom header for YouTube'"
 patcher-args = "-OcustomHeader=Aurora "
 
 
-[YouTube-Revanced]
+[YouTube-ReVanced]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "module"
