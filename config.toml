@@ -14,6 +14,7 @@ patcher-args = "-OappName=YouTube "
 
 
 [YouTube-ReVanced]
+disabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "both"
 build-mode = "both"
