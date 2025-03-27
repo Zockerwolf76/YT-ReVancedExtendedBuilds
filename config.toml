@@ -1,5 +1,4 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk appparallel-jobs = 1
 
 
 [YouTube-ReVanced-Extended]
@@ -8,14 +7,6 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-arch = "both"
-build-mode = "both"
-patcher-args = "-OappName=YouTube "
-
-
-[YouTube-ReVanced]
-disabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "both"
 build-mode = "both"
 patcher-args = "-OappName=YouTube "
