@@ -1,7 +1,8 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk appparallel-jobs = 1
 
 
-[YouTube-ReVancedExtended]
+[YouTube-ReVanced-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-arch = "arm64-v8a"
-build-mode = "module"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "YouTube"
